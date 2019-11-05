@@ -28,4 +28,22 @@ window.onload = () => {
     document.dispatchEvent(event);
   }));
 
+  document.addEventListener('keydown', (e) => {
+    e.preventDefault();
+
+    const { keyCode } = e;
+    const element = document.querySelector(`[data-key="${keyCode}"]`);
+    const numEl = element.getAttribute('data-key');
+
+    element.classList.add('hover');
+    if (!keys[e.keyCode].isSysBtn) textArea.value += e.key;
+
+  });
+
+  document.addEventListener('keyup', (e) => {
+    const { keyCode } = e;
+    const element = document.querySelector(`[data-key="${keyCode}"]`);
+
+    element.classList.remove('hover');
+  });
 }
