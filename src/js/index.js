@@ -1,7 +1,6 @@
 import markup from './markup';
 import keys from './keys';
 
-
 window.onload = () => {
   const body = document.querySelector('body');
   const div = document.createElement('div');
@@ -37,6 +36,18 @@ window.onload = () => {
 
     element.classList.add('hover');
     if (!keys[e.keyCode].isSysBtn) textArea.value += e.key;
+
+    // System buttons
+    if (+numEl === 8) {
+      textArea.value = textArea.value.slice(0, textArea.value.length - 1);
+    } else if (+numEl === 13) {
+      textArea.value += '\n';
+    } else if (+numEl === 9) {
+      textArea.value += '\t';
+    } else if (+numEl === 32) {
+      textArea.value += ' 1';
+      textArea.value = textArea.value.slice(0, textArea.value.length - 1);
+    }
 
   });
 
