@@ -13,19 +13,17 @@ window.onload = () => {
   const textArea = document.querySelector('.textarea');
   const li = document.querySelectorAll('li');
 
-  arrayOfKeys.forEach((element) => element.addEventListener('click', (e) => {
+  arrayOfKeys.forEach((el) => el.addEventListener('click', (e) => {
     e.preventDefault();
 
     const event = new Event('keypress');
-    const { keyName } = keys[element.getAttribute('data-key')];
+    const { keyName } = keys[el.getAttribute('data-key')];
 
-    /*if (keyName.isLetter) {
+    if (keyName.isLetter) {
       event.key = keyName.en;
     } else {
       event.key = keyName.number;
-    };*/
-
-    event.key = keyName[keyName.isLetter ? 'en' : 'number'];
+    };
 
     document.dispatchEvent(event);
   }));
