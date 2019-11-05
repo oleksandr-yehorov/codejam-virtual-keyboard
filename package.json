@@ -1,0 +1,19 @@
+{
+  "name": "codejam-virtual-keyboard",
+  "version": "1.0.0",
+  "description": "virtual keyboard",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oleksandr-yehorov/codejam-virtual-keyboard.git"
+  },
+  "author": "Yehorov Oleksandr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oleksandr-yehorov/codejam-virtual-keyboard/issues"
+  },
+  "homepage": "https://github.com/oleksandr-yehorov/codejam-virtual-keyboard#readme"
+}
