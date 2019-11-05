@@ -200,70 +200,70 @@ const keys = {
   49: {
     isLetter: false,
     keyName: {
-      first: '1',
+      number: '1',
       en: '!'
     },
   },
   50: {
     isLetter: false,
     keyName: {
-      first: '2',
+      number: '2',
       en: '@'
     },
   },
   51: {
     iisLetter: false,
     keyName: {
-      first: '3',
+      number: '3',
       en: '#'
     },
   },
   52: {
     isLetter: false,
     keyName: {
-      first: '4',
+      number: '4',
       en: '$'
     },
   },
   53: {
     isLetter: false,
     keyName: {
-      first: '5',
+      number: '5',
       en: '%'
     },
   },
   54: {
     isLetter: false,
     keyName: {
-      first: '6',
+      number: '6',
       en: '^'
     },
   },
   55: {
     isLetter: false,
     keyName: {
-      first: '7',
+      number: '7',
       en: '&'
     },
   },
   56: {
     isLetter: false,
     keyName: {
-      first: '8',
+      number: '8',
       en: '*'
     },
   },
   57: {
     isLetter: false,
     keyName: {
-      first: '9',
+      number: '9',
       en: '('
     },
   },
   48: {
     isLetter: false,
     keyName: {
-      first: '0',
+      number: '0',
       en: ')'
     },
   },
