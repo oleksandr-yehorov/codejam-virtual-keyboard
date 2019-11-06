@@ -26,7 +26,7 @@ body {
   
 .textarea:focus {
     outline: none;
-    border: 1px solid red;
+    border: 1px solid rgb(27, 112, 52);
 }
   
 .keyboard {
@@ -42,7 +42,7 @@ body {
     height: 40px;
     line-height: 40px;
     text-align: center;
-    background: #fff;
+    background: rgb(30, 151, 182);
     border: 1px solid #f9f9f9;
     border-radius: 5px;
 }
@@ -97,7 +97,7 @@ body {
     left: 1px;
     color: #FFF;
     border-color: #e5e5e5;
-    background-color: red;
+    background-color: rgba(37, 198, 204, 0.945);
     cursor: pointer;
   }
   
@@ -107,6 +107,6 @@ body {
     left: 1px;
     color: #fff;
     border-color: #e5e5e5;
-    background-color: red !important;
+    background-color: rgb(19, 221, 86) !important;
     cursor: pointer;
   }
